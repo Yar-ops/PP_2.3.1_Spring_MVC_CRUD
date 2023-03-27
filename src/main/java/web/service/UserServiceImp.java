@@ -11,7 +11,7 @@ import java.util.List;
 
 @Service
 public class UserServiceImp implements UserService {
-    UserDao userDao;
+    private UserDao userDao;
 
     @Autowired
     public UserServiceImp(UserDao userDao) {

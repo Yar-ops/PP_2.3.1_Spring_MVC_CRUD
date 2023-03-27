@@ -1,6 +1,5 @@
 package web.model;
 
-
 import javax.persistence.*;
 
 @Entity
@@ -19,7 +18,8 @@ public class User {
     @Column(name = "email")
     private String email;
 
-    public User() {}
+    public User() {
+    }
 
     public User(String firstName, String lastName, String email) {
         this.firstName = firstName;
